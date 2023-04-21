@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 768px) {
+   /* define el ancho del contenor principal */
+   body {
+     width: 768px;
+     margin: 20 ;
+    } 
+        /*define el ancho de las columnas */
+    img{
+        width: 540px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+        /* define el ancho del contenor principal */
+    body {
+        width: 100%;
+    } 
+        /*define el ancho de las columnas */
+    img{
+        width: 60%;
+    }
+    #spyderman {
+        width: 70%;
+        
+
+    }
+ }
+
+
+
+ @media screen and (min-width: 730px) {
+    /* define el ancho del contenor principal */
+    body {
+      width: 100%;
+      margin: 20% ;
+     } 
+         /*define el ancho de las columnas */
+     img{
+         width: 70%;
+     }
+ }
+ 
