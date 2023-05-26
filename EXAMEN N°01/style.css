@@ -1,0 +1,52 @@
+@media screen and (min-width: 900px) {
+    /* define el ancho del contenor principal */
+    body {
+      width: 900px;
+      margin: 80 ;
+     } 
+         /*define el ancho de las columnas */
+         #img{
+         width: 100%;
+         
+     }
+ }
+ 
+ 
+ 
+ @media screen and (max-width: 767px) {
+         /* define el ancho del contenor principal */
+     body {
+         width: 60%;
+     } 
+         /*define el ancho de las columnas */
+         #img{
+         width: 70%;
+     }
+     #img {
+         width: 70%;
+     #img {
+            width: 70%;
+         }
+         
+ 
+     }
+  }
+  #img-grid {
+display:table ;
+width: 100%;
+  }
+ 
+#img-grid-row {
+    display: table row;
+}
+
+  #img-row {
+    display: table-cell;
+    width: 33.33%;
+    padding: auto;
+
+  }
+ #img-grid-cell img {
+    width: 100%;
+    height: auto;
+ }
